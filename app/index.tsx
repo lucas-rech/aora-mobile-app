@@ -1,7 +1,6 @@
 import { Link } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
-import Profile from "./(tabs)/profile";
 
 export default function HomeScreen() {
   return (
@@ -10,7 +9,7 @@ export default function HomeScreen() {
         Lucas Rech!
       </Text>
       <StatusBar style="auto" />
-      <Link href="/profile" style={ {color: 'blue'}}>Go to Profile</Link>
+      <Link href="/home" style={ {color: 'blue'}}>Go to Home</Link>
     </View>
   );
 }
